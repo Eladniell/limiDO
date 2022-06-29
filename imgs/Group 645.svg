@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="814" height="545.798" viewBox="0 0 814 545.798">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5ebeb9;
+      }
+
+      .cls-2 {
+        fill: #b01680;
+      }
+
+      .cls-3 {
+        fill: #1d292f;
+        font-size: 90px;
+        font-family: Oswald;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+      }
+
+      .cls-4 {
+        fill: #b11280;
+      }
+    </style>
+  </defs>
+  <g id="Group_645" data-name="Group 645" transform="translate(-2631 1067.888)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(2652 -1067.888)">
+      <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-1" width="56.495" height="388.17" transform="translate(0 0.835)"/>
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M26.66,388.543H83.155V66.663h0a18.089,18.089,0,0,1,18.479,17.811V388.543h56.773l-.557-321.88h0a17.533,17.533,0,0,1,17.867,17.088l1,304.792H233.38V65.327c0-64.955,0-64.955-67.849-65.177H26.66Z" transform="translate(121.729 0.685)"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-1" width="56.495" height="321.768" transform="translate(372.92 67.126)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M67,.15v48.7h56.439C122.66.261,67,.15,67,.15Z" transform="translate(305.92 0.685)"/>
+      <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="56.495" height="321.768" transform="translate(74.194 67.07)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M13.34.15v48.7H69.723C68.777-.017,13.34.15,13.34.15Z" transform="translate(60.91 0.685)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-2" d="M231.278,41.8C231.278,2.842,183.41.17,183.41.17H81.72V388.4H184.635c44.528-3.785,46.643-41.578,46.643-41.578S231.444,118.781,231.278,41.8Zm-27.83,21.652V339.416a20.594,20.594,0,0,1-21.54,21.6H109.55V27.722h72.358s21.6-.668,21.6,21.6Z" transform="translate(373.131 0.776)"/>
+      <path id="Path_5" data-name="Path 5" class="cls-2" d="M195.809,0H178.332C146.439,3.173,111.54,24.49,111.54,63.842V326.277c0,34.732,25.993,56.606,66.792,63.842h17.477c35.121-5.566,66.513-27.051,66.513-63.842V63.842C262.322,27.273,232.433,4.731,195.809,0Zm37.57,317.928a45.585,45.585,0,0,1-46.309,44.528h0a45.585,45.585,0,0,1-46.309-44.528V72.358A45.585,45.585,0,0,1,187.07,27.83h0a45.585,45.585,0,0,1,46.309,44.528Z" transform="translate(509.288)"/>
+    </g>
+    <text id="Makes_you_DO_your_best" data-name="Makes you DO your best" class="cls-3" transform="translate(2631 -655.09)"><tspan x="-387.675" y="107">Makes you </tspan><tspan class="cls-4" y="107">DO</tspan><tspan y="107" xml:space="preserve"> your best</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+﻿.accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+}
+.accordion-body{
+    background-color:white;
+}
+    .accordion-body p {
+        background-color: white;
+    }
+        .accordion-body p lh-lg {
+            background-color: white;
+        }
+.form-check-label {
+    padding-left: 30px;
+}
+form-check form-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Assistant', sans-serif;
+}
+body {
+    direction: rtl;
+}
+#container {
+    background: #F2F4F3;
+    height:100%;
+    width:100%;
+}
+.impact-header {
+    display: flex;
+    background: #FFDD00 url('../imgs/Repeat Grid 1.svg');
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover
+}
+
+.impact-header h1 {
+    font-weight: 900;
+    font-size:50px;
+    color: #1D292F;
+}
+.content {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.opening-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+    .opening-content > .openingTXT {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: inherit;
+    }
+.box1 {
+        width: 775px;
+    }
+
+.box2 {
+    position: relative;
+    width: 260px;
+    height: 100px;
+}
+    .box2 .tipIcon {
+        width: 50px;
+        height: 50px;
+        z-index: 99;
+        position: absolute;
+    }
+
+    .box2 .tipTXTbox {
+        background-color: white;
+        height: 90px;
+        width: 220px;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding-right: 40px;
+        padding-top: 10px;
+        font-weight: 600;
+    }
+
+.impact-accordions {
+    padding-top:30px;
+}
+.Example {
+    height: 60px;
+    width: 900px;
+    background-color: #D2D2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+p .Example {
+    height: 60px;
+    width: 900px;
+    background-color: #D2D2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.impact-accordion {
+    padding-right: 50px;
+}
+
+    .impact-accordion .header-container {
+        position: relative;
+    }
+
+.circle {
+    background-color: #FFDD00;
+    position: absolute;
+    top: 5px;
+    padding: 20px;
+    right: -50px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .circle.two {
+        background: #B11280;
+    }
+    .circle.three {
+        background: #6BC2B9;
+    }
+    .circle.four {
+        background: #787777;
+    }
+
+.impact-example {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.impact-boxExample {
+    height: auto;
+}
+.impact-textExample {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px;
+    height: auto;
+    background: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.user-impact-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .user-impact-paragraph .user-impact-container {
+        display: flex;
+        justify-content:space-between;
+        gap: 30px;
+    }
+
+        .user-impact-paragraph .user-impact-container .left {
+            flex: 1;
+        }
+        .user-impact-paragraph .user-impact-container .right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+            .user-impact-paragraph .user-impact-container .right h5 {
+              align-self: flex-start;
+            }
+
+            .user-impact-paragraph .user-impact-container .right .checkbox-container {
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+            }
+
+            .user-impact-paragraph .user-impact-container .right .form-check {
+                display: inline-grid;
+                grid-template-columns: 0.2fr 1fr;
+                background: #fff;
+                padding: 8px;
+            }
+.form-check.form-switch {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles/bootstrap-reset.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript-logindAndRegistration.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="container">
+        <!--<div class="nav">
+            <div><a href="main.html"><img src="imgs/logo.svg" alt="עמוד הבית" /></a></div>
+    </div>-->
+        <div class="content">
+            <div class="header">
+                <div class="header-content">
+                        <img src="imgs/SVG/Asset 2.svg" />
+                    <div class="header-text">
+                        <h1>איתך בכל נקודות ההחלטה החשובות בתהליך פיתוח הלמידה</h1>
+                        <div id="typing"></div>
+                        <a href="#" class="myButton" data-bs-toggle="modal" data-bs-target="#exampleModal">להרשמה והתחברות לחצו כאן</a>
+                    </div>
+                </div>
+                </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="logInForm">
+                                <div class="login">
+                                    <h3>כבר נרשמת אלינו?</h3>
+                                    <br />
+                                    <label for="UserEmailTxt" class="form-label">מייל</label>
+                                    <br />
+                                    <input id="UserEmailTxt" class="form-control signInInput" type="email" placeholder="כתובת מייל" />
+                                    <br />
+                                    <label for="UserPasswordTxt" class="form-label">סיסמה</label>
+                                    <br />
+                                    <input id="UserPasswordTxt" class="form-control signInInput" type="password" placeholder="סיסמה" />
+                                    <i class="far fa-eye fa-eye-slash" id="togglePassword" style="cursor: pointer;position: absolute;margin-top: -27px;margin-right: 83%;"></i>
+                                    <br />
+                                    <button id="loginBTN" type="button">להתחברות</button>
+                                    <br />
+                                    <a href="#" id="forget-pass">שכחת את הסיסמא?</a>
+                                    <div id="forgotPassInputs">
+                                        <h5>מה כתובת המייל שלך?</h5>
+                                        <p>נשלח לך את הסיסמא שלך ישירות למייל</p>
+                                        <input id="UserEmail2Txt" class="form-control signInInput" type="email" placeholder="כתובת מייל" />
+                                        <div id="passwordfeedback"></div>
+                                        <button id="forgotPassBTN" type="button" class="btn btn-primary">לשחזור הסיסמא</button>
+                                        <button id="closeForgotPass">סגירה</button>
+                                    </div>
+                                    <div id="loginDiv"></div>
+                                </div>
+                                <div class="registration">
+                                    <h3>פעם ראשונה כאן?</h3>
+                                    <br />
+                                    <label for="userfullnameTxt" class="form-label">שם מלא</label>
+                                    <br />
+                                    <input id="userfullnameTxt" class="form-control registrationInput" type="text" placeholder="שם מלא" />
+                                    <br />
+                                    <label for="NewUserEmail" class="form-label">מייל</label>
+                                    <br />
+                                    <input id="NewUserEmail" class="form-control registrationInput" type="email" placeholder="כתובת מייל" />
+                                    <br />
+                                    <label for="Password2" class="form-label">סיסמה</label>
+                                    <br />
+                                    <input id="Password2" class="form-control registrationInput" type="password" placeholder="סיסמה" />
+                                    <br />
+                                    <button id="registerBTN" type="button">להרשמה</button>
+                                    <div id="userRegisterDiv"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Section1">
+                <div class="why-limi">
+                    <h1>למה limiDO?</h1>
+                    <p>
+                        ב-4 שלבים ממוקדים יהיה לך מסמך שאפשר להשוויץ בו, עם סיכום של כל תהליך פיתוח הלמידה שעשית (לא חייב לבצע את כול השלבים, הבחירה היא שלך)
+                    </p>
+                </div>
+            </div>
+            <div class="Section2">
+                <div class="infographic">
+                    <div class="text-info">
+                        <div class="text">נשאל שאלות,</div>
+                        <div class="text">נציע אפשרויות מתאימות</div>
+                        <div class="text">ונאפשר לך לתעד החלטות שקיבלת</div>
+                    </div>
+                    <div class="infographic-img">
+                        <img src="imgs/Group 653.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="Section3">
+                <div class="Section3-content">
+                    <h1>איך זה נראה בסוף?</h1>
+                    <p>שמנו לך דוגמא כדי לעזור לך להבין מה יוצא לך מזה</p>
+                    <div class="process-div">
+                        <div class="process-labels">
+                        <div>תאריך עדכון אחרון</div>
+                        <div>סטטוס הפרויקט</div>
+                        </div>
+                        <div class="process">
+                            <div class="process-details">
+                                <div id="ProjectName-div"></div>
+                                <div id="LastUpdate-div"></div>
+                            </div>
+                            <div class="FML">
+                                <div class="Status">
+                                    <div id="ImpactStatus-div">אימפקט</div>
+                                    <div id="analasysPlanStatus-div">אבחון</div>
+                                    <div id="analasysResultStatus-div">עיבוד</div>
+                                    <div id="userSulotionStatus">פתרון</div>
+                                </div>
+                                <div style="width:100%"><hr /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="myButton" data-bs-toggle="modal" data-bs-target="#exampleModal">להרשמה והתחברות לחצו כאן</a>
+                </div>
+            </div>
+            <div class="footer">
+                <img src="imgs/logo_White.svg" style="width: 10%;"/>
+                <div>תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון <a href="https://www.hit.ac.il/telem/overview" target="_blank">בפקולטה לטכנולוגיות למידה</a> HIT</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

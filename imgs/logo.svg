@@ -1,0 +1,23 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="120.594" height="60.971" viewBox="0 0 120.594 60.971">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5ebeb9;
+      }
+
+      .cls-2 {
+        fill: #b01680;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-1" width="8.829" height="60.666" transform="translate(0 0.13)"/>
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M26.66,60.851h8.829V10.545h0a2.827,2.827,0,0,1,2.888,2.784V60.851H47.25l-.087-50.306h0a2.74,2.74,0,0,1,2.792,2.671l.157,47.635h8.856V10.336c0-10.152,0-10.152-10.6-10.186H26.66Z" transform="translate(-3.469 -0.02)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-1" width="8.829" height="50.289" transform="translate(58.283 10.491)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M67,.15V7.762h8.821C75.7.167,67,.15,67,.15Z" transform="translate(-8.717 -0.02)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="8.829" height="50.289" transform="translate(11.596 10.482)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M13.34.15V7.762h8.812C22,.124,13.34.15,13.34.15Z" transform="translate(-1.736 -0.02)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-2" d="M105.094,6.677C105.094.588,97.613.17,97.613.17H81.72V60.845H97.8c6.959-.592,7.29-6.5,7.29-6.5S105.12,18.707,105.094,6.677Zm-4.349,3.384V53.19a3.219,3.219,0,0,1-3.366,3.375H86.069V4.476H97.378a3.222,3.222,0,0,1,3.375,3.375Z" transform="translate(-10.632 -0.022)"/>
+    <path id="Path_5" data-name="Path 5" class="cls-2" d="M124.71,0h-2.731c-4.984.5-10.439,3.828-10.439,9.978V50.993c0,5.428,4.062,8.847,10.439,9.978h2.731c5.489-.87,10.4-4.228,10.4-9.978V9.978C135.105,4.262,130.434.739,124.71,0Zm5.872,49.688a7.124,7.124,0,0,1-7.238,6.959h0a7.124,7.124,0,0,1-7.238-6.959V11.309a7.124,7.124,0,0,1,7.238-6.959h0a7.124,7.124,0,0,1,7.238,6.959Z" transform="translate(-14.512)"/>
+  </g>
+</svg>
